@@ -22,11 +22,6 @@ namespace mis.Player
 
         public BaseResourceContainer ResourceContainer => _resourceContainer;
 
-        private void Start()
-        {
-            _weaponHandler.SetOwner(this);
-        }
-
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
             if (_characterMovement.IsGrounded)
@@ -43,7 +38,10 @@ namespace mis.Player
             _weaponHandler = GetComponent<BaseWeaponHandler>();
         }
 
-        public void OnGainControl() { }
+        public void OnGainControl()
+        {
+            _weaponHandler.SetOwner(this);
+        }
 
         public void OnLoseControl()
         {

@@ -31,13 +31,13 @@ namespace mis.Weapons
         public override void SetOwner(IWeaponOwner owner)
         {
             _owner = owner;
-            _owner.ResourceContainer.OnAddResource += OnAddResourceToOwner;
+            Subscribe();
         }
 
         public override void LoseOwner()
         {
             UnequipCurrentWeapon();
-            _owner.ResourceContainer.OnAddResource -= OnAddResourceToOwner;
+            Unsubscribe();
             _owner = null;
         }
 
@@ -102,6 +102,7 @@ namespace mis.Weapons
 
         private void OnDisable()
         {
+            Unsubscribe();
             _currentWeapon = null;
             _lastWeaponType = 0;
             _currentWeaponType = 0;
@@ -149,6 +150,24 @@ namespace mis.Weapons
             {
                 EquipWeapon(resourceId);
             }
+        }
+
+        private void Subscribe()
+        {
+            if (_owner == null)
+            {
+                return;
+            }
+            _owner.ResourceContainer.OnAddResource += OnAddResourceToOwner;
+        }
+
+        private void Unsubscribe()
+        {
+            if (_owner == null)
+            {
+                return;
+            }
+            _owner.ResourceContainer.OnAddResource -= OnAddResourceToOwner;
         }
     }
 }
