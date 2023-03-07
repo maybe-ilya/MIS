@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9818b29901b7aaf408745cf75244c245, type: 3}
+  m_Name: audio_sound_cue_pain_grunt
+  m_EditorClassIdentifier: 
+  _clips:
+  - Clip: {fileID: 8300000, guid: a8453e262cf09de4f8c38d6b38fc9a01, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: cee696de512ed0c44911415a85d76701, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: d423fd48cbebf4949a467de100483671, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: d0ddbfc82f4d5194a980cc01ca25bbd4, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3

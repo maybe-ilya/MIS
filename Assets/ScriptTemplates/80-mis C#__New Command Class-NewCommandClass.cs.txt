@@ -1,0 +1,12 @@
+using System;
+using UnityEngine;
+using mis.Core;
+
+#ROOTNAMESPACEBEGIN#
+	public class #SCRIPTNAME# : AbstractCommand {
+        protected override void ExecuteInternal()
+        {
+            #NOTRIM#
+        }	
+	}
+#ROOTNAMESPACEEND#

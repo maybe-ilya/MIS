@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de2274db5585904aa21875c35f67ec7, type: 3}
+  m_Name: config_game_settings
+  m_EditorClassIdentifier: 
+  _id:
+    _value: 1443935005
+  _initialSettings:
+    _floatSettings:
+    - _id:
+        _value: -214167410
+      _value: 100
+    - _id:
+        _value: 609795227
+      _value: 70
+    - _id:
+        _value: 921335979
+      _value: 0.8
+    - _id:
+        _value: -86157516
+      _value: 1
+    - _id:
+        _value: 1777762433
+      _value: 0.9
+    - _id:
+        _value: 137053504
+      _value: 0.8
+    - _id:
+        _value: -303998002
+      _value: 0.8
+    _boolSettings:
+    - _id:
+        _value: 2098578865
+      _value: 1
+  _floatSettingLimits:
+  - _settingId:
+      _value: -214167410
+    _range:
+      _min: 60
+      _max: 130
+  - _settingId:
+      _value: 609795227
+    _range:
+      _min: 60
+      _max: 130
+  - _settingId:
+      _value: 921335979
+    _range:
+      _min: 0
+      _max: 1
+  - _settingId:
+      _value: -86157516
+    _range:
+      _min: 0
+      _max: 1
+  - _settingId:
+      _value: 1777762433
+    _range:
+      _min: 0
+      _max: 1
+  - _settingId:
+      _value: 137053504
+    _range:
+      _min: 0
+      _max: 1
+  - _settingId:
+      _value: -303998002
+    _range:
+      _min: 0
+      _max: 1

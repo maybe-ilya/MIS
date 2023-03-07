@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9818b29901b7aaf408745cf75244c245, type: 3}
+  m_Name: audio_sound_cue_death_scream
+  m_EditorClassIdentifier: 
+  _clips:
+  - Clip: {fileID: 8300000, guid: 4464ec82e337c074dbe572e4bef535cc, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: f375097af361048418751eab7a31429b, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: 3cca5911582363a4fb749de458ba44aa, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: 9e4c6cfc1522aa84999b1f2254641afb, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3
+  - Clip: {fileID: 8300000, guid: 1e63f4d7397bd364193894236af6a125, type: 3}
+    VolumeRange:
+      _min: 0.6
+      _max: 0.8
+    PitchRange:
+      _min: 0.5
+      _max: 1.3

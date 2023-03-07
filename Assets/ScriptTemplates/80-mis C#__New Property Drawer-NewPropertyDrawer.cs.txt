@@ -1,0 +1,15 @@
+using System;
+using UnityEngine;
+using UnityEditor;
+
+#ROOTNAMESPACEBEGIN#
+	//[CustomPropertyDrawer(typeof(PASTE_YOUR_TYPE_HERE))]
+	public class #SCRIPTNAME# : PropertyDrawer {
+		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+        {
+            using var propertyScope = new EditorGUI.PropertyScope(position, label, property);
+            var rect = EditorGUI.PrefixLabel(position, propertyScope.content);			
+			#NOTRIM#
+		}		
+	}
+#ROOTNAMESPACEEND#

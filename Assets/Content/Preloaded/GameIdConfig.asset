@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb17a63d7381d54d81856dc223db23b, type: 3}
+  m_Name: GameIdConfig
+  m_EditorClassIdentifier: 
+  _entries:
+  - _name: objects/player_character
+    _value: -1323249660
+    _constName: PLAYER_CHARACTER
+  - _name: resources/health
+    _value: -1308480318
+    _constName: RESOURCE_HEALTH
+  - _name: resources/armor
+    _value: 542277622
+    _constName: RESOURCE_ARMOR
+  - _name: weapons/combat_shotgun
+    _value: 325720085
+    _constName: WEAPON_COMBAT_SHOTGUN
+  - _name: weapons/super_shotgun
+    _value: -366159348
+    _constName: WEAPON_SUPER_SHOTGUN
+  - _name: weapons/assault_rifle
+    _value: 352919253
+    _constName: WEAPON_ASSAULT_RIFLE
+  - _name: weapons/plasma_gun
+    _value: -698345775
+    _constName: WEAPON_PLASMA_GUN
+  - _name: weapons/chaingun
+    _value: -117228137
+    _constName: WEAPON_CHAINGUN
+  - _name: weapons/gauss_cannon
+    _value: -168594431
+    _constName: WEAPON_GAUSS_CANNON
+  - _name: weapons/rocket_launcher
+    _value: 684798940
+    _constName: WEAPON_ROCKET_LAUNCHER
+  - _name: weapons/bfg
+    _value: 2119265929
+    _constName: WEAPON_BFG
+  - _name: pickups/combat_shotgun
+    _value: -1917481312
+    _constName: PICKUP_COMBAT_SHOTGUN
+  - _name: pickups/assault_rifle
+    _value: 1406798478
+    _constName: PICKUP_ASSAULT_RIFLE
+  - _name: ammo/bullets
+    _value: 561837238
+    _constName: AMMO_BULLETS
+  - _name: ammo/shells
+    _value: 1183116851
+    _constName: AMMO_SHELLS
+  - _name: ammo/plasma
+    _value: -404375347
+    _constName: AMMO_PLASMA
+  - _name: ammo/rockets
+    _value: -462929723
+    _constName: AMMO_ROCKETS
+  - _name: projectile/trail
+    _value: 763899009
+    _constName: 
+  - _name: weapons/combat_shotgun_full_auto
+    _value: -295436404
+    _constName: WEAPON_COMBAT_SHOTGUN_FULL_AUTO
+  - _name: weapons/assault_rifle_aim
+    _value: 1676680579
+    _constName: WEAPON_ASSAULT_RIFLE_AIM
+  - _name: weapon_groups/combat_shotgun
+    _value: 2096023372
+    _constName: WEAPON_GROUP_COMBAT_SHOTGUN
+  - _name: weapon_groups/super_shotgun
+    _value: 2092682498
+    _constName: WEAPON_GROUP_SUPER_SHOTGUN
+  - _name: weapon_groups/assault_rifle
+    _value: 1248504884
+    _constName: WEAPON_GROUP_ASSAULT_RIFLE
+  - _name: weapon_groups/plasma_gun
+    _value: 2029554868
+    _constName: WEAPON_GROUP_PLASMA_GUN
+  - _name: weapon_groups/chaingun
+    _value: -223944640
+    _constName: WEAPON_GROUP_CHAINGUN
+  - _name: weapon_groups/gauss_cannon
+    _value: -799547189
+    _constName: WEAPON_GROUP_GAUSS_CANNON
+  - _name: weapon_groups/rocket_launcher
+    _value: 1338240505
+    _constName: WEAPON_GROUP_ROCKET_LAUNCHER
+  - _name: weapon_groups/bfg
+    _value: 1935820185
+    _constName: WEAPON_GROUP_BFG
+  - _name: battle/e1m1_battle1
+    _value: 1600239627
+    _constName: 
+  - _name: monsters/zombie
+    _value: -1565845598
+    _constName: 
+  - _name: cfg/global_damage
+    _value: -1491478504
+    _constName: GLOBAL_DAMAGE_CFG
+  - _name: resources/jump
+    _value: -1025037693
+    _constName: RESOURCE_JUMP
+  - _name: config/global_ui
+    _value: -373555919
+    _constName: GLOBAL_UI_CFG
+  - _name: config/game_settings
+    _value: 1443935005
+    _constName: GLOBAL_GAME_SETTINGS_CFG
+  - _name: ui/main_canvas
+    _value: -1443327449
+    _constName: UI_MAIN_CANVAS
+  - _name: ui/combat_hud
+    _value: -630772400
+    _constName: UI_COMBAT_HUD
+  - _name: ui/main_menu_window
+    _value: -1914272572
+    _constName: UI_MAIN_MENU_WINDOW
+  - _name: ui/pause_window
+    _value: 1854419047
+    _constName: UI_PAUSE_WINDOW
+  - _name: ui/settings_window
+    _value: -1809001244
+    _constName: UI_SETTINGS_WINDOW
+  - _name: game_settings/game_fov
+    _value: -214167410
+    _constName: GAME_SETTING_FOV
+  - _name: game_settings/viewmodel_fov
+    _value: 609795227
+    _constName: GAME_SETTING_VIEWMODEL_FOV
+  - _name: game_settings/master_volume
+    _value: 921335979
+    _constName: GAME_SETTING_MASTER_VOLUME
+  - _name: game_settings/sfx_volume
+    _value: -86157516
+    _constName: GAME_SETTING_SFX_VOLUME
+  - _name: game_settings/music_volume
+    _value: 1777762433
+    _constName: GAME_SETTING_MUSIC_VOLUME
+  - _name: game_settings/horizontal_sensitivity_scale
+    _value: 137053504
+    _constName: GAME_SETTING_HORIZONTAL_SENSITIVITY_SCALE
+  - _name: game_settings/vertical_sensitivity_scale
+    _value: -303998002
+    _constName: GAME_SETTING_VERTICAL_SENSITIVITY_SCALE
+  - _name: game_settings/vertical_axis_inversion
+    _value: 2098578865
+    _constName: GAME_SETTING_VERTICAL_AXIS_INVERSION
+  - _name: levels/main_menu
+    _value: -1469926424
+    _constName: LEVEL_MAIN_MENU
+  - _name: levels/demo
+    _value: 582915757
+    _constName: LEVEL_DEMO
+  - _name: ui/empty_hud
+    _value: 459413396
+    _constName: 
+  - _name: objects/dummy_pawn
+    _value: 1854278736
+    _constName: 
+  - _name: ui/loading_screen_window
+    _value: -1075334467
+    _constName: UI_LOADING_SCREEN_WINDOW
+  - _name: objects/loading_screen_camera
+    _value: 2041823220
+    _constName: LOADING_SCREEN_CAMERA
+  - _name: ui/you_win_window
+    _value: -512284486
+    _constName: UI_YOU_WIN_WINDOW
+  - _name: ui/you_lose_window
+    _value: 904809859
+    _constName: UI_YOU_LOSE_WINDOW
+  - _name: config/audio
+    _value: 951376979
+    _constName: GLOBAL_AUDIO_CONFIG
+  - _name: pickup/health_pack
+    _value: -1390745629
+    _constName: 
+  - _name: pickup/ammo_pack
+    _value: -1333402903
+    _constName: 
+  - _name: pickup/drop_health
+    _value: -140824099
+    _constName: 
+  - _name: pickup/drop_armor
+    _value: -1934220274
+    _constName: 
+  - _name: pickup/drop_ammo
+    _value: -249868425
+    _constName: 
+  - _name: objects/pickup_drop_health
+    _value: 6247090
+    _constName: 
+  - _name: objects/pickup_drop_armor
+    _value: -1360752963
+    _constName: 
+  - _name: objects/pickup_drop_ammo
+    _value: 332351803
+    _constName: 
+  - _name: config/drop
+    _value: -1207644990
+    _constName: GLOBAL_DROP_CONFIG
+  - _name: music/main_menu_theme
+    _value: 43166331
+    _constName: 
+  - _name: music/e1m1_theme
+    _value: -1170916444
+    _constName: 
+  - _name: music/victory_theme
+    _value: -2010717067
+    _constName: MUSIC_VICTORY_THEME
+  - _name: music/defeat_theme
+    _value: 97118506
+    _constName: MUSIC_DEFEAT_THEME
+  - _name: objects/music_source
+    _value: 304040602
+    _constName: 
+  - _name: config/level_music_cfg
+    _value: 483985313
+    _constName: GLOBAL_LEVEL_MUSIC_CONFIG

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c377ec9ee6c9837499e1d4af20b0e276, type: 3}
+  m_Name: projectile_trail
+  m_EditorClassIdentifier: 
+  _id:
+    _value: 763899009
+  _prefab: {fileID: 1534638113614329528, guid: 425a0e122298cb9428c8b9627358bd53, type: 3}
+  _minPooledObjects: 4
+  _maxPooledObjects: 16

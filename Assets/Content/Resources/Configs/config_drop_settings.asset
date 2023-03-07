@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4341cce98486944ad0ced3b67bdd70, type: 3}
+  m_Name: config_drop_settings
+  m_EditorClassIdentifier: 
+  _id:
+    _value: -1207644990
+  _pointData:
+    XRange:
+      _min: -0.6
+      _max: 0.6
+    YRange:
+      _min: 0.8
+      _max: 1.2
+    ZRange:
+      _min: -0.6
+      _max: 0.6
+  _dropData:
+  - EntityTypeId:
+      _value: -1565845598
+    DropData: {fileID: 11400000, guid: 18909c3458f9b68429120270bdd6cb3c, type: 2}

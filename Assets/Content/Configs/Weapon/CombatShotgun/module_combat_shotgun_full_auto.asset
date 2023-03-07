@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354e8c234ca288340a3afceb3d4ff880, type: 3}
+  m_Name: module_combat_shotgun_full_auto
+  m_EditorClassIdentifier: 
+  _collisionMask:
+    serializedVersion: 2
+    m_Bits: 257
+  _horizontalSpread:
+    _min: -0.2
+    _max: 0.2
+  _verticalSpread:
+    _min: -0.2
+    _max: 0.2
+  _ammoPerShot: 1
+  _damageData:
+    DamageRange:
+      _min: 0
+      _max: 150
+    IsDistanceDependentDamage: 1
+    MaxDistance: 2
+    DamageDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _shotsCount: 5
+  _shotCooldown: 0.2
+  _projectileId:
+    _value: 763899009

@@ -1,0 +1,16 @@
+{
+    "name": "mis.Damage",
+    "rootNamespace": "mis.Damage",
+    "references": [
+        "GUID:f415fb232af43b9408b7cd9d63ae35e6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

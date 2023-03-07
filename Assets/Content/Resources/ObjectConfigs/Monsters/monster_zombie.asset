@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c377ec9ee6c9837499e1d4af20b0e276, type: 3}
+  m_Name: monster_zombie
+  m_EditorClassIdentifier: 
+  _id:
+    _value: -1565845598
+  _prefab: {fileID: 1653575133436848116, guid: 9ef9916850108044e9d806c895ff7490, type: 3}
+  _minPooledObjects: 3
+  _maxPooledObjects: 20
+  _needInitResources: 1
+  _resources:
+  - _id:
+      _value: -1308480318
+    _value: 100
+  _resourceLimits:
+  - _id:
+      _value: -1308480318
+    _range:
+      _min: 0
+      _max: 100

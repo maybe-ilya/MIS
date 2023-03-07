@@ -1,0 +1,17 @@
+{
+    "name": "mis.Resources",
+    "rootNamespace": "mis.Resources",
+    "references": [
+        "GUID:f415fb232af43b9408b7cd9d63ae35e6",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

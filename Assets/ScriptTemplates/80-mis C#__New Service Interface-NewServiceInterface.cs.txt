@@ -1,0 +1,9 @@
+using System;
+using UnityEngine;
+using mis.Core;
+
+#ROOTNAMESPACEBEGIN#
+	public interface #SCRIPTNAME# : IService {
+		#NOTRIM#
+	}
+#ROOTNAMESPACEEND#

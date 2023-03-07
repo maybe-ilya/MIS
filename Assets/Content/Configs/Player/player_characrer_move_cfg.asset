@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d525fc8bec0c2d47b32d81b85b0fe6d, type: 3}
+  m_Name: player_characrer_move_cfg
+  m_EditorClassIdentifier: 
+  _moveSpeed: 7.5
+  _horizontalLookSpeed: 20
+  _verticalLookSpeed: 15
+  _verticalLookRange:
+    _min: -75
+    _max: 75
+  _isVerticalLookInverted: 1
+  _gravityStrenght: 1
+  _jumpForce: 4.75
+  _acceleration: 15
+  _accelerationInAir: 3.5
+  _deceleration: 20
+  _decelerationInAir: 5
+  _horizontalSensitivityScaleSettingId:
+    _value: 137053504
+  _verticalSensitivityScaleSettingId:
+    _value: -303998002
+  _verticalAxisInversionSettingId:
+    _value: 2098578865

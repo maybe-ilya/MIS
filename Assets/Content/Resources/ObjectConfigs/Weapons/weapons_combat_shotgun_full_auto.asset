@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c377ec9ee6c9837499e1d4af20b0e276, type: 3}
+  m_Name: weapons_combat_shotgun_full_auto
+  m_EditorClassIdentifier: 
+  _id:
+    _value: -295436404
+  _prefab: {fileID: 8568470490383519022, guid: 02066aa8f4e006448999344380028c9a, type: 3}
+  _minPooledObjects: 0
+  _maxPooledObjects: 1

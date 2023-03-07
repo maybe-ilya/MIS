@@ -1,0 +1,17 @@
+{
+    "name": "mis.Player",
+    "rootNamespace": "mis.Player",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:f415fb232af43b9408b7cd9d63ae35e6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

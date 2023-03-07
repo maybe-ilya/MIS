@@ -1,0 +1,17 @@
+{
+    "name": "mis.UI",
+    "rootNamespace": "mis.UI",
+    "references": [
+        "GUID:f415fb232af43b9408b7cd9d63ae35e6",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

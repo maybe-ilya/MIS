@@ -1,0 +1,9 @@
+using System;
+using UnityEngine;
+using mis.Core;
+
+#ROOTNAMESPACEBEGIN#
+	public interface #SCRIPTNAME# : ICommand {
+		#NOTRIM#
+	}
+#ROOTNAMESPACEEND#

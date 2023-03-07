@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce582b010743094bbbc14f7b756643f, type: 3}
+  m_Name: battle_cfg_e1m1_battle1
+  m_EditorClassIdentifier: 
+  _id:
+    _value: 1600239627
+  _waves:
+  - _maxConcurrentMonsters: 5
+    _monsters:
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+  - _maxConcurrentMonsters: 8
+    _monsters:
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+  - _maxConcurrentMonsters: 10
+    _monsters:
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598
+    - _value: -1565845598

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c377ec9ee6c9837499e1d4af20b0e276, type: 3}
+  m_Name: objects_player_character
+  m_EditorClassIdentifier: 
+  _id:
+    _value: -1323249660
+  _prefab: {fileID: 971355094269305438, guid: a4947f98bb6db4944a74bee5e5659880, type: 3}
+  _minPooledObjects: 1
+  _maxPooledObjects: 1
+  _needInitResources: 1
+  _resources:
+  - _id:
+      _value: -1308480318
+    _value: 100
+  - _id:
+      _value: 542277622
+    _value: 50
+  - _id:
+      _value: -1025037693
+    _value: 2
+  - _id:
+      _value: 1183116851
+    _value: 16
+  _resourceLimits:
+  - _id:
+      _value: -1308480318
+    _range:
+      _min: 0
+      _max: 100
+  - _id:
+      _value: 542277622
+    _range:
+      _min: 0
+      _max: 50
+  - _id:
+      _value: -1025037693
+    _range:
+      _min: 0
+      _max: 2
+  - _id:
+      _value: 325720085
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: -366159348
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: 352919253
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: -698345775
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: -117228137
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: -168594431
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: 684798940
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: 2119265929
+    _range:
+      _min: 0
+      _max: 1
+  - _id:
+      _value: 561837238
+    _range:
+      _min: 0
+      _max: 90
+  - _id:
+      _value: 1183116851
+    _range:
+      _min: 0
+      _max: 32
+  - _id:
+      _value: -404375347
+    _range:
+      _min: 0
+      _max: 150
+  - _id:
+      _value: -462929723
+    _range:
+      _min: 0
+      _max: 9

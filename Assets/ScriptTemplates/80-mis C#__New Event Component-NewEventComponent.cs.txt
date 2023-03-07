@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEngine.Events;
+
+#ROOTNAMESPACEBEGIN#
+	internal sealed class #SCRIPTNAME# : MonoBehaviour 
+	{
+		[SerializeField]
+		private UnityEvent _event;
+		#NOTRIM#
+		private void InvokeEvent() => 
+			_event?.Invoke();
+		#NOTRIM#
+		private void Reset() => 
+			_event = new UnityEvent();
+	}
+#ROOTNAMESPACEEND#
